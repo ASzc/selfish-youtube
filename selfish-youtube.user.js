@@ -2,10 +2,10 @@
 // @name                Selfish Youtube
 // @namespace           https://github.com/ASzc/selfish-youtube
 // @description         On the watch page, remove the share panel.
-// @include             http://youtube.com/*
-// @include             http://*.youtube.com/*
-// @include             https://youtube.com/*
-// @include             https://*.youtube.com/*
+// @include             http://youtube.com/watch*
+// @include             http://*.youtube.com/watch*
+// @include             https://youtube.com/watch*
+// @include             https://*.youtube.com/watch*
 // ==/UserScript==
 
 var panelName = "action-panel-share";
