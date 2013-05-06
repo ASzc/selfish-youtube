@@ -16,11 +16,12 @@ actionPanelShare.parentNode.removeChild(actionPanelShare);
 
 // Remove buttons targeting the panel
 var buttons = document.body.getElementsByTagName("button");
-for (var i = 0; i < buttons.length; i++) {
-    var button = buttons[i];
-    var buttonDTF = button.getAttribute("data-trigger-for");
-
-    if (buttonDTF != null && buttonDTF == panelName) {
-        button.parentNode.removeChild(button);
+if (buttons != null && buttons instanceof NodeList) {
+    for (var i = 0; i < buttons.length; i++) {
+        var button = buttons[i];
+        var buttonDTF = button.getAttribute("data-trigger-for");
+        if (buttonDTF != null && buttonDTF == panelName) {
+            button.parentNode.removeChild(button);
+        }
     }
 }
