@@ -16,4 +16,4 @@ Selfish Youtube has been tested on **Firefox** version **20.0.1**, with **Grease
 
 Selfish Youtube is available from [userscripts.org](http://userscripts.org), and can be easily installed with Firefox's [Greasefire Extension](https://addons.mozilla.org/en-US/firefox/addon/greasefire/) when on the YouTube watch page.
 
-Alternatively, navigate directly to the [raw script file](raw/master/selfish-youtube.user.js) with your browser to trigger an installation prompt.
+Alternatively, navigate directly to the [raw script file](../../raw/master/selfish-youtube.user.js) with your browser to trigger an installation prompt.
