@@ -7,6 +7,7 @@
 // @include             http://*.youtube.com/watch*
 // @include             https://youtube.com/watch*
 // @include             https://*.youtube.com/watch*
+// @grant               none
 // ==/UserScript==
 
 var panelName = "action-panel-share";
