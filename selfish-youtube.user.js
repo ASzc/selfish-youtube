@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name                Selfish Youtube
+// @version             2013-05-06
 // @namespace           https://github.com/ASzc/selfish-youtube
 // @description         On the watch page, remove the share panel.
 // @include             http://youtube.com/watch*
