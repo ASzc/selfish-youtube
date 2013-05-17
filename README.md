@@ -16,4 +16,4 @@ Selfish Youtube has been tested on **Firefox** version **20.0.1**, with **Grease
 
 Selfish Youtube is available from [userscripts.org](https://userscripts.org/scripts/show/166809).
 
-Alternatively, navigate directly to the [raw script file](../../raw/master/selfish-youtube.user.js) with your browser to trigger an installation prompt.
+Alternatively, navigate directly to the [raw script file](../../raw/release-latest/selfish-youtube.user.js) with your browser to trigger an installation prompt.
