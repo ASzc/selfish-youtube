@@ -1,4 +1,4 @@
-# Selfish Youtube - Remove YouTube's share panel
+# Selfish YouTube - Remove YouTube's share panel
 
 ## Background
 
