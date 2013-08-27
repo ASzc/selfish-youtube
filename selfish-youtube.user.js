@@ -10,20 +10,29 @@
 // @grant               none
 // ==/UserScript==
 
-var panelName = "action-panel-share";
+function removeActionPanel(rootElem, panelName) {
+    // Remove panel
+    var actionPanelShare = rootElem.getElementById(panelName);
 
-// Remove panel
-var actionPanelShare = document.getElementById(panelName);
-actionPanelShare.parentNode.removeChild(actionPanelShare);
+    if (actionPanelShare != null) {
+        actionPanelShare.parentNode.removeChild(actionPanelShare);
 
-// Remove buttons targeting the panel
-var buttons = document.body.getElementsByTagName("button");
-if (buttons != null) {
-    for (var i = 0; i < buttons.length; i++) {
-        var button = buttons[i];
-        var buttonDTF = button.getAttribute("data-trigger-for");
-        if (buttonDTF != null && buttonDTF == panelName) {
-            button.parentNode.removeChild(button);
+        // Remove buttons targeting the panel
+        var buttons = rootElem.body.getElementsByTagName("button");
+        if (buttons != null) {
+            for (var i = 0; i < buttons.length; i++) {
+                var button = buttons[i];
+                var buttonDTF = button.getAttribute("data-trigger-for");
+                if (buttonDTF != null && buttonDTF == panelName) {
+                    button.parentNode.removeChild(button);
+                }
+            }
         }
     }
+}
+
+var panelsToRemove = ["action-panel-share", "action-panel-error"];
+
+for (var i = 0; i < panelsToRemove.length; i++) {
+    removeActionPanel(document, panelsToRemove[i]);
 }
