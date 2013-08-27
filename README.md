@@ -12,7 +12,7 @@ Selfish YouTube executes on any YouTube **watch page** (i.e. youtube.com/watch?v
 
 ## Installation
 
-Selfish Youtube has been tested on **Firefox** version **20.0.1**, with **Greasemonkey** version **1.8**.
+Selfish Youtube has been tested on **Firefox** version **23.0**, with **Greasemonkey** version **1.11**.
 
 Selfish Youtube is available from [userscripts.org](https://userscripts.org/scripts/show/166809).
 
